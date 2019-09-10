@@ -1,0 +1,101 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "d649ff02-aee1-4a2a-96a5-bfa3838ea3e1": {
+        "id": "d649ff02-aee1-4a2a-96a5-bfa3838ea3e1",
+        "parent": null,
+        "name": "califirniaIndunil910",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "104e8c2d-ef11-4af1-8285-4bba6934fe40"
+        ],
+        "isRemovable": false,
+        "filePath": "califirniaIndunil910"
+      },
+      "104e8c2d-ef11-4af1-8285-4bba6934fe40": {
+        "id": "104e8c2d-ef11-4af1-8285-4bba6934fe40",
+        "parent": "d649ff02-aee1-4a2a-96a5-bfa3838ea3e1",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "califirniaIndunil910/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed californiaaa\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusWest1tstCaltestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "d649ff02-aee1-4a2a-96a5-bfa3838ea3e1",
+    "openFiles": [
+      "104e8c2d-ef11-4af1-8285-4bba6934fe40"
+    ],
+    "currentFileId": "104e8c2d-ef11-4af1-8285-4bba6934fe40",
+    "resources": {
+      "apigusWest1tstCaltestinduany": {
+        "name": "apigusWest1tstCaltestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-west-1",
+          "apiMode": 0,
+          "apiName": "tstCal",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test1",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "califirniaIndunil910",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-west-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1568107639195
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "califirniaIndunil910",
+      "url": "https://github.com/Indunil1992/califirniaIndunil910"
+    }
+  }
+}
